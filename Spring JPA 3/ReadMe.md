@@ -11,7 +11,7 @@ If an exception occurs, all operations are rolled back, preventing partial data 
         Author author = new Author("Netik Kohli", List.of(book1, book2));
         authorRepository.save(author);
         
-        System.out.println("Author and books saved successfully!");
+        System.out.println("Author and books saved");
     }
 
 In above code from this exercise I use @Transaction on the method saveAuthorAndBook() - if no error occurs, the author and books are saved successfully and if an error occurs, the transaction rolls back, and no data is saved in the database.
