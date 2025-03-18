@@ -1,4 +1,6 @@
 ## Answer 9
+We can use evict method on session object to remove the object from cache :
+
        	Author author1 = session.get(Author.class, 1L);
 		System.out.println("1st Query :- "+author1);
 
