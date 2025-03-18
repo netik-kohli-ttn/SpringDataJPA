@@ -1,5 +1,5 @@
 ## Answer 9
-       		Author author1 = session.get(Author.class, 1L);
+       	Author author1 = session.get(Author.class, 1L);
 		System.out.println("1st Query :- "+author1);
 
 		Author author2 = session.get(Author.class, 1L);
