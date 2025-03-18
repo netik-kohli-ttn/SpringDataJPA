@@ -14,6 +14,7 @@ We can use evict method on session object to remove the object from cache :
 
 		session.clear();
 
+No SQL query is fired for the second query due to cache, but a query will be executed again for the third query after using evict method.
 
 
 ## Answer 10
